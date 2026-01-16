@@ -1,0 +1,905 @@
+{
+  "filename": "..\\F7A0133_sign.fd",
+  "size": 17778888,
+  "uefi_volumes": [
+    {
+      "offset": 936,
+      "size": 1196479856833910289,
+      "vol_type": "FV",
+      "guid": "FFFFFFFF-FFFF-FFFF-8D2B-F1FF96768B4C"
+    },
+    {
+      "offset": 4181104,
+      "size": 3735552,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "offset": 7941232,
+      "size": 327680,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "offset": 8252536,
+      "size": 327680,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "offset": 12569712,
+      "size": 3735552,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "offset": 16329840,
+      "size": 327680,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "offset": 16641144,
+      "size": 327680,
+      "vol_type": "FV",
+      "guid": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "spd_structures": [
+    {
+      "offset": 3595568,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 3596108,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 3596648,
+      "vendor": "85199518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e851995180040000002020000"
+    },
+    {
+      "offset": 3597188,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 3597728,
+      "vendor": "8519b518",
+      "tck": 10,
+      "locked": true,
+      "raw": "2311130e8519b518004000000a020000"
+    },
+    {
+      "offset": 3598268,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 3598808,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 3599348,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 3599888,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 11984176,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 11984716,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 11985256,
+      "vendor": "85199518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e851995180040000002020000"
+    },
+    {
+      "offset": 11985796,
+      "vendor": "88219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e882195180040000002020000"
+    },
+    {
+      "offset": 11986336,
+      "vendor": "8519b518",
+      "tck": 10,
+      "locked": true,
+      "raw": "2311130e8519b518004000000a020000"
+    },
+    {
+      "offset": 11986876,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 11987416,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 11987956,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    },
+    {
+      "offset": 11988496,
+      "vendor": "86219518",
+      "tck": 2,
+      "locked": false,
+      "raw": "2311130e862195180040000002020000"
+    }
+  ],
+  "frequency_tables": [
+    {
+      "offset": 14584,
+      "values": [
+        81,
+        82,
+        83,
+        84,
+        0,
+        0,
+        24064,
+        24320,
+        24576,
+        24832,
+        0,
+        0,
+        0,
+        106,
+        107,
+        108,
+        109,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "table_type": "Memory Clock (0x51+)"
+    },
+    {
+      "offset": 187856,
+      "values": [
+        81,
+        82,
+        83,
+        84,
+        0,
+        0,
+        24064,
+        24320,
+        24576,
+        24832,
+        0,
+        0,
+        0,
+        106,
+        107,
+        108,
+        109,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "table_type": "Memory Clock (0x51+)"
+    },
+    {
+      "offset": 983408,
+      "values": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        128
+      ],
+      "table_type": "Memory Clock (0x51+)"
+    },
+    {
+      "offset": 1245552,
+      "values": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        128
+      ],
+      "table_type": "Memory Clock (0x51+)"
+    }
+  ],
+  "power_structures": [
+    {
+      "offset": 3600804,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 8421095,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 8421099,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 11989412,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 16809703,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 16809707,
+      "milliwatts": 15000,
+      "watts": 15,
+      "description": "15W - Default TDP"
+    },
+    {
+      "offset": 1737644,
+      "milliwatts": 25000,
+      "watts": 25,
+      "description": "25W - Boost TDP"
+    },
+    {
+      "offset": 2074484,
+      "milliwatts": 25000,
+      "watts": 25,
+      "description": "25W - Boost TDP"
+    },
+    {
+      "offset": 10126252,
+      "milliwatts": 25000,
+      "watts": 25,
+      "description": "25W - Boost TDP"
+    },
+    {
+      "offset": 10463092,
+      "milliwatts": 25000,
+      "watts": 25,
+      "description": "25W - Boost TDP"
+    },
+    {
+      "offset": 1648456,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    },
+    {
+      "offset": 1735304,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    },
+    {
+      "offset": 2075400,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    },
+    {
+      "offset": 10037064,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    },
+    {
+      "offset": 10123912,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    },
+    {
+      "offset": 10464008,
+      "milliwatts": 30000,
+      "watts": 30,
+      "description": "30W - Max TDP"
+    }
+  ],
+  "smu_info": [
+    {
+      "offset": 1514651,
+      "description": "SMU msg failed: Id = %08X, Ret=%08X\n",
+      "msg_id": null
+    },
+    {
+      "offset": 1514691,
+      "description": "SMU msg sent: Id = %08X, Arg = %08X, SmuOut=%08X\n",
+      "msg_id": null
+    },
+    {
+      "offset": 9903259,
+      "description": "SMU msg failed: Id = %08X, Ret=%08X\n",
+      "msg_id": null
+    },
+    {
+      "offset": 9903299,
+      "description": "SMU msg sent: Id = %08X, Arg = %08X, SmuOut=%08X\n",
+      "msg_id": null
+    },
+    {
+      "offset": 1507900,
+      "description": "SMU FW to SRAM Start...\n",
+      "msg_id": null
+    },
+    {
+      "offset": 1525920,
+      "description": "SMU FW binary overruns aggregate file.\n",
+      "msg_id": null
+    },
+    {
+      "offset": 1525972,
+      "description": "SMU FW not 64-bit aligned in file, id=%d\n",
+      "msg_id": null
+    },
+    {
+      "offset": 9896508,
+      "description": "SMU FW to SRAM Start...\n",
+      "msg_id": null
+    },
+    {
+      "offset": 9914528,
+      "description": "SMU FW binary overruns aggregate file.\n",
+      "msg_id": null
+    },
+    {
+      "offset": 9914580,
+      "description": "SMU FW not 64-bit aligned in file, id=%d\n",
+      "msg_id": null
+    }
+  ],
+  "strings": {
+    "AGESA": [
+      1528780,
+      9917388
+    ],
+    "CPU": [
+      160424,
+      4921468,
+      13310076,
+      17731081,
+      17734307
+    ],
+    "CPU (UTF16)": [
+      119712,
+      146104,
+      163624
+    ],
+    "Clock": [
+      2013416,
+      2341904,
+      2341992,
+      10402024,
+      10730512,
+      10730600
+    ],
+    "GPU": [
+      1528837,
+      9917445
+    ],
+    "Jupiter": [
+      986259,
+      1248403,
+      8259294,
+      8259348,
+      8259697,
+      16647902,
+      16647956,
+      16648305,
+      17776392,
+      17776446,
+      17776795,
+      17777122,
+      17777744,
+      17777798,
+      17778147,
+      17778474
+    ],
+    "Memory": [
+      3507,
+      3683,
+      3795,
+      3923,
+      4195,
+      4215,
+      149335,
+      171995,
+      172107,
+      172411,
+      172523,
+      173995,
+      174015,
+      1961628,
+      1961796,
+      1961860,
+      2032180,
+      2032200,
+      2032221,
+      2032241,
+      2032987,
+      10350236,
+      10350404,
+      10350468,
+      10420788,
+      10420808,
+      10420829,
+      10420849,
+      10421595,
+      17772095,
+      17772135,
+      17772338,
+      17772637
+    ],
+    "Memory (UTF16)": [
+      149310
+    ],
+    "PSP": [
+      1088625,
+      1485133,
+      1486337,
+      1495727,
+      1499052,
+      1503492,
+      1510952,
+      1511040,
+      1514648,
+      1514688,
+      1518164,
+      1531445,
+      1533088,
+      1541668,
+      1541800,
+      1542112,
+      1550479,
+      1550528,
+      1550710,
+      2350717,
+      2452163,
+      9873741,
+      9874945,
+      9884335,
+      9887660,
+      9892100,
+      9899560,
+      9899648,
+      9903256,
+      9903296,
+      9906772,
+      9920053,
+      9921696,
+      9930276,
+      9930408,
+      9930720,
+      9939087,
+      9939136,
+      9939318,
+      10739325,
+      10840771
+    ],
+    "Power": [
+      149803,
+      1542424,
+      1967438,
+      9931032,
+      10356046
+    ],
+    "Power (UTF16)": [
+      132396,
+      149774
+    ],
+    "SMU": [
+      1507900,
+      1508317,
+      1508676,
+      1514651,
+      1514691,
+      1525725,
+      1525870,
+      1525920,
+      1525972,
+      1526017,
+      1538625,
+      1538712,
+      1542420,
+      1546908,
+      1549942,
+      9896508,
+      9896925,
+      9897284,
+      9903259,
+      9903299,
+      9914333,
+      9914478,
+      9914528,
+      9914580,
+      9914625,
+      9927233,
+      9927320,
+      9931028,
+      9935516,
+      9938550
+    ],
+    "UMC": [
+      1512136,
+      9900744
+    ],
+    "Valve": [
+      986237,
+      1248381
+    ]
+  },
+  "guids": [],
+  "numeric_tables": [],
+  "psp_entries": [
+    {
+      "offset": 1088624,
+      "entry_type": "PSP Directory",
+      "size": 122618017
+    },
+    {
+      "offset": 1485132,
+      "entry_type": "PSP Directory",
+      "size": 2030154992
+    },
+    {
+      "offset": 1486336,
+      "entry_type": "PSP Directory",
+      "size": 1753593200
+    },
+    {
+      "offset": 1531444,
+      "entry_type": "PSP Directory",
+      "size": 1920103747
+    },
+    {
+      "offset": 2350716,
+      "entry_type": "PSP Directory",
+      "size": 2147484424
+    },
+    {
+      "offset": 9873740,
+      "entry_type": "PSP Directory",
+      "size": 2030154992
+    },
+    {
+      "offset": 9874944,
+      "entry_type": "PSP Directory",
+      "size": 1753593200
+    },
+    {
+      "offset": 9920052,
+      "entry_type": "PSP Directory",
+      "size": 1920103747
+    },
+    {
+      "offset": 10739324,
+      "entry_type": "PSP Directory",
+      "size": 2147484424
+    }
+  ],
+  "ec_info": [
+    {
+      "offset": 953536,
+      "description": "ITE Tech. Inc.  ����������������"
+    },
+    {
+      "offset": 986267,
+      "description": "ITE 5570"
+    },
+    {
+      "offset": 1215680,
+      "description": "ITE Tech. Inc.  ����������������"
+    },
+    {
+      "offset": 1248411,
+      "description": "ITE 5570"
+    },
+    {
+      "offset": 986259,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 1248403,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 8259294,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 8259348,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 8259697,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 16647902,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 16647956,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 16648305,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17776392,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17776446,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17776795,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17777122,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17777744,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17777798,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17778147,
+      "description": "Jupiter (Steam Deck)"
+    },
+    {
+      "offset": 17778474,
+      "description": "Jupiter (Steam Deck)"
+    }
+  ],
+  "patches": [
+    {
+      "offset": 3597740,
+      "original": [
+        10
+      ],
+      "patched": [
+        2
+      ],
+      "description": "SPD tCK unlock",
+      "effect": "Enable frequencies above 6400 MT/s",
+      "risk": "low"
+    },
+    {
+      "offset": 11986348,
+      "original": [
+        10
+      ],
+      "patched": [
+        2
+      ],
+      "description": "SPD tCK unlock",
+      "effect": "Enable frequencies above 6400 MT/s",
+      "risk": "low"
+    },
+    {
+      "offset": 983424,
+      "original": [
+        89,
+        0
+      ],
+      "patched": [
+        95,
+        0
+      ],
+      "description": "Frequency remap",
+      "effect": "3200MHz selection -> ~7000 MT/s",
+      "risk": "low"
+    },
+    {
+      "offset": 1245568,
+      "original": [
+        89,
+        0
+      ],
+      "patched": [
+        95,
+        0
+      ],
+      "description": "Frequency remap",
+      "effect": "3200MHz selection -> ~7000 MT/s",
+      "risk": "low"
+    },
+    {
+      "offset": 3600804,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    },
+    {
+      "offset": 8421095,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    },
+    {
+      "offset": 8421099,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    },
+    {
+      "offset": 11989412,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    },
+    {
+      "offset": 16809703,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    },
+    {
+      "offset": 16809707,
+      "original": [
+        152,
+        58,
+        0,
+        0
+      ],
+      "patched": [
+        168,
+        97,
+        0,
+        0
+      ],
+      "description": "Power limit increase",
+      "effect": "15W -> 25W TDP",
+      "risk": "high"
+    }
+  ]
+}

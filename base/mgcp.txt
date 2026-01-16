@@ -1,0 +1,107 @@
+// Samsung K3LKBKB0BM-MGCP
+  1,
+ {0x23,                                 ///< 0   384 SPD bytes used, 512 total
+  0x10,                                 ///< 1   SPD Revision 1.0
+  0x13,                                 ///< 2   DRAM Type: LPDDR5 SDRAM
+  0x0E,                                 ///< 3   Module Type: Not Hybrid (DRAM only) / Non-DIMM Solution (on-board DRAM)
+  0x16,                                 ///< 4   8 Banks, no bank groups, 8 Gb SDRAM density
+  0x22,                                 ///< 5   15 Rows, 11 Columns
+  0x95,                                 ///< 6   Non-Monolithic DRAM Device, 2 die, 2 Channels per package, Signal Loading Matrix 1
+  0x08,                                 ///< 7   SDRAM Optional Features: tMAW = 8192 * tREFI, Unlimited MAC
+  0x00,                                 ///< 8   SDRAM Thermal / Refresh options: Reserved
+  0x00,                                 ///< 9   Other SDRAM Optional Features: Post package repair supported, one row per bank group, Soft PPR not supported
+  0x00,                                 ///< 10  Reserved
+  0x00,                                 ///< 11  Module Nominal Voltage: Reserved
+  0x02,                                 ///< 12  Module Organization: 1 Rank, x16 Device Width per Channel
+  0x01,                                 ///< 13  Module Memory Bus width: 1 Channels, 16 bits channel width, no ECC
+  0x00,                                 ///< 14  Module Thermal Sensor: none
+  0x00,                                 ///< 15  Extended Module Type: Reserved
+  0x00,                                 ///< 16  Signal Loading: Data/Strobe/Mask: 2 loads, CAC: 2 loads, CS: 1 load
+  0x00,                                 ///< 17  MTB = 0.125ns, FTB = 1 ps
+  0x0A,                                 ///< 18  tCKAVGmin = 1.25 ns (LPDDR5-6400)
+  0xFF,                                 ///< 19  tCKAVGmax = 32.002 ns
+  0x92,                                 ///< 20  CAS Latencies supported (First Byte) : 14, 10, 6
+  0x55,                                 ///< 21  CAS Latencies supported (Second Byte): 28, 24, 20, 16
+  0x05,                                 ///< 22  CAS Latencies supported (Third Byte) : 36, 32
+  0x00,                                 ///< 23  CAS Latencies supported (Fourth Byte):
+  0xAA,                                 ///< 24  Minimum CAS Latency (tAAmin) = 21.25 ns
+  0x00,                                 ///< 25  Read and Write Latency Set options: Write Latency Set A and DBI-Read Disabled
+  0x90,                                 ///< 26  Minimum RAS-to-CAS delay (tRCDmin) = 19 ns
+  0xA8,                                 ///< 27  Row precharge time for all banks (tRPab) = 21 ns
+  0x90,                                 ///< 28  Minimum row precharge time (tRPpb) = 18 ns
+  0xC0,                                 ///< 29  tRFCab = 210 ns (8 Gb)
+  0x08,                                 ///< 30  tRFCab MSB
+  0x60,                                 ///< 31  tRFCpb = 120 ns (8 Gb)
+  0x04,                                 ///< 32  tRFCpb MSB
+  0, 0, 0, 0, 0, 0, 0,                  ///< 33 - 39
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 40 - 49
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 50 - 59
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 60 - 69
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 70 - 79
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 80 - 89
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 90 - 99
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 100 - 109
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 110 - 119
+  0x00,                                 ///< 120 FTB for Row precharge time per bank (tRPpb) = 18 ns
+  0x00,                                 ///< 121 FTB for Row precharge time for all banks (tRPab) = 21 ns
+  0x00,                                 ///< 122 FTB for Minimum RAS-to-CAS delay (tRCDmin) = 19 ns
+  0x00,                                 ///< 123 FTB for tAAmin = 21.25 ns
+  0x7F,                                 ///< 124 FTB for tCKAVGmax = 32.002 ns
+  0x00,                                 ///< 125 FTB for tCKAVGmin = 1.25 ns (LPDDR5-6400)
+  0x60,                                 ///< 126 CRC A
+  0x3F,                                 ///< 127 CRC B
+  0, 0,                                 ///< 128 - 129
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 130 - 139
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 140 - 149
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 150 - 159
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 160 - 169
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 170 - 179
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 180 - 189
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 190 - 199
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 200 - 209
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 210 - 219
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 220 - 229
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 230 - 239
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 240 - 249
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 250 - 259
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 260 - 269
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 270 - 279
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 280 - 289
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 290 - 299
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 300 - 309
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 310 - 319
+  0x80,                                 ///< 320 Module Manufacturer ID Code, Least Significant Byte
+  0xCE,                                 ///< 321 Module Manufacturer ID Code, Most Significant Byte
+  0x00,                                 ///< 322 Module Manufacturing Location
+  0x00,                                 ///< 323 Module Manufacturing Date Year
+  0x00,                                 ///< 324 Module Manufacturing Date Week
+  0x00,                                 ///< 325 Module ID: Module Serial Number
+  0x00,                                 ///< 326 Module Serial Number B
+  0x00,                                 ///< 327 Module Serial Number C
+  0x00,                                 ///< 328 Module Serial Number D
+  0x4B, 0x33, 0x4C, 0x4B, 0x42,         ///< 329 - 333 Module Part Number: Unused bytes coded as ASCII Blanks (0x20)
+  0x4B, 0x42, 0x30, 0x42, 0x4D,         ///< 334 - 338 Module Part Number
+  0x2D, 0x4D, 0x47, 0x43, 0x50,         ///< 339 - 343 Module Part Number
+  0x00, 0x00, 0x00, 0x00, 0x00,         ///< 344 - 348 Module Part Number
+  0x00,                                 ///< 349 Module Revision Code
+  0x80,                                 ///< 350 DRAM Manufacturer ID Code, Least Significant Byte
+  0xCE,                                 ///< 351 DRAM Manufacturer ID Code, Most Significant Byte
+  0x00,                                 ///< 352 DRAM Stepping
+  0, 0, 0, 0, 0, 0, 0,                  ///< 353 - 359
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 360 - 369
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 370 - 379
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 380 - 389
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 390 - 399
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 400 - 409
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 410 - 419
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 420 - 429
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 430 - 439
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 440 - 449
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 450 - 459
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 460 - 469
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 470 - 479
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 480 - 489
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 490 - 499
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0,         ///< 500 - 509
+  0, 0                                  ///< 510 - 511
+}})}

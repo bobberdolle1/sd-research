@@ -1,0 +1,28 @@
+# BIOS dumps (large binary files, not for git)
+*.bin
+*.fd
+*.rom
+*.cap
+
+# Build artifacts
+bios_analyzer_rs/target/
+
+# Analysis output (regeneratable)
+*.txt
+!base/*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rust
+Cargo.lock
+
+# Python
+__pycache__/
+*.pyc
+.env
